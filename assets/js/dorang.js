@@ -33,13 +33,17 @@ $(document).ready(function(){
     $('.light').click(function(){
         $('body').addClass('light-theme');
         $('body').removeClass('dark-theme');
+        $('.dante-item').removeClass('hidden');
+        $('.light-item').addClass('hidden');
     });
     $('.dark').click(function(){
         $('body').toggleClass('dark-theme');
         $('body').removeClass('light-theme');
+        $('.dante-item').addClass('hidden');
+        $('.light-item').removeClass('hidden');
     });
-});
 
+});
 
 
 // smooth scroll

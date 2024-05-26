@@ -10927,7 +10927,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3;
   }
   body {
-    min-width: 992px !important;
+    min-width: 992px !important;    
   }
   .container {
     min-width: 992px !important;
@@ -11550,7 +11550,7 @@ a:hover {
 .header .header-content .btn-theme-color {
   padding: 8px 20px;
   border-radius: 30px;
-  border: 2px solid #dc3545;
+  border: 2px solid #fff;
   color: #fff;
   background: #dc3545;
   outline: 0;

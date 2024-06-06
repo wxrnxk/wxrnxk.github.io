@@ -44,8 +44,8 @@ $(document).ready(function(){
     });
 
     $('#btn-dxnte').click(function(){
-        var audio = new Audio('https://wxrnxk.github.io/assets/audio/dxnte_proximo_ciclo_infierno.mp3');
-        audio.play();
+        // var audio = new Audio('https://wxrnxk.github.io/assets/audio/dxnte_proximo_ciclo_infierno.mp3');
+        // audio.play();
     });
 });
 

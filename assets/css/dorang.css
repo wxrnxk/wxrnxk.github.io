@@ -6701,13 +6701,13 @@ a.badge-dark.focus {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: .5;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+  opacity: 1;
 }
 
 .close:hover {
-  color: #000;
+  color: #dc3545;
   text-decoration: none;
 }
 
@@ -7005,7 +7005,24 @@ a.close.disabled {
   overflow: scroll;
 }
 
+
 @media (min-width: 576px) {
+
+  .modal-dialog.bit{
+    width: 50vw;
+    max-width: none;
+    height: 100%;
+    text-align: center;
+  }
+
+  .close.bit{
+    color: #000;
+  }
+
+  .bit-img{
+    height: 100%;
+  }
+
   .modal-dialog {
     max-width: 500px;
     margin: 1.75rem auto;
@@ -7029,7 +7046,7 @@ a.close.disabled {
 
   .modal-sm {
     max-width: 300px;
-  }
+  }  
 }
 
 @media (min-width: 992px) {
@@ -12921,4 +12938,17 @@ body.dark-theme {
 
 a.btn{
   cursor: pointer !important;
+}
+
+.modal.bit{
+  width: 100vw;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+}
+.modal.bit.modal-dialog{
+  width: 100vw;
+  max-width: none;
+  height: 100%;
+  margin: 0;
 }

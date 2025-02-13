@@ -12641,10 +12641,10 @@ a:hover {
 .header {
   z-index: 990;
   position: relative;
-  min-height: 600px;
+  min-height: 80%;
   text-align: center;
   color: #fff;
-  background-image: url(../imgs/hero.png);
+  background-image: url(../imgs/hero2.png);
   background-size: cover;
   background-position: center;
 

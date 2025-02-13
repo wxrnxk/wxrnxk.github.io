@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="SYMBOL_WHITE" data-name="SYMBOL WHITE" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-1" points="742.99 814.67 605.76 728.89 412.93 418.66"/>
+  <polyline class="cls-1" points="624.74 1243.21 657.35 1098.42 412.93 418.66"/>
+  <polyline class="cls-1" points="742.99 812.25 625.54 1239.66 605.76 1159.66"/>
+  <polyline class="cls-1" points="745.97 770.65 742.99 814.67 148.6 552.08"/>
+  <polyline class="cls-1" points="860.6 1243.21 827.98 1098.42 1072.4 418.66"/>
+  <polyline class="cls-1" points="742.34 812.25 859.8 1239.66 879.57 1159.66"/>
+  <polyline class="cls-1" points="742.34 814.67 879.57 728.89 1072.4 418.66"/>
+  <polyline class="cls-1" points="738.95 770.41 741.93 814.43 1336.32 551.84"/>
+</svg>

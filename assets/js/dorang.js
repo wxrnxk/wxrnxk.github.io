@@ -21,11 +21,14 @@ $(document).ready(function () {
 
   $(".modal-toggle").click(function () {
     $(".modalBox").toggleClass("show");
-    $("#corvusForm").removeClass('hidden'); 
-    $("#alertMessage").hide();   
-    $("#corvusPassword").val('');   
+    $("#corvusForm").removeClass("hidden");
+    $("#alertMessage").hide();
+    $("#corvusPassword").val("");
     $("#corvusCorax").hide();
     $("#corvusForm").show();
+    $("#lyrics").addClass("lyricsHide");
+    $("#lyrics").removeClass("lyricsShow");   
+    $("#lyricsBtn").show();    
   });
 
   $(document).on("click", function (event) {
@@ -36,7 +39,8 @@ $(document).ready(function () {
     ) {
       $(".modalBox").removeClass("show");
       $("#corvusCorax").removeClass("show");
-      // TODO stop music if closed
+      $("#lyrics").addClass("lyricsHide");
+      $("#lyrics").removeClass("lyricsShow");   
       widget.pause();
     }
   });
@@ -88,5 +92,14 @@ $(document).ready(function () {
         }
       );
     }
+  });
+});
+
+$(document).ready(function () {
+  //add class lyricsShow to #lyrics when clicking on lyricsBtn
+  $("#lyricsBtn").click(function () {
+    $("#lyrics").removeClass("lyricsHide");
+    $("#lyrics").addClass("lyricsShow");
+    $("#lyricsBtn").hide();    
   });
 });

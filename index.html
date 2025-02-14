@@ -63,7 +63,7 @@
     <header class="header">
       <div class="overlay"></div>
       <div class="header-content">
-        <h1 class="header-title">C O R V U S C O R A X</h1>
+        <h1 class="header-title">C O R V U S_C O R A X</h1>
         <h3 class="header-subtitle">ascenso</h3>
         <a id="btn-dxnte" class="btn btn-theme-color modal-toggle">
           <i class="ti-control-play"> </i>
@@ -78,7 +78,7 @@
         </button>
         <div
           class="modal-content"
-          style="background-color: #dc3545; border: none"
+          style="background-color: #dc3545; border: none; opacity: 0.9"
         >
           <div class="modal-body text-center">
             <form id="corvusForm">
@@ -110,7 +110,7 @@
                 </div>
               </div>
             </form>
-            <div id="corvusCorax" style="display: none;">
+            <div id="corvusCorax" style="display: none">
               <iframe
                 id="corvusIframe"
                 width="100%"
@@ -133,21 +133,55 @@
                   font-weight: 100;
                 "
               >
-                <a
-                  href="https://soundcloud.com/withblood"
-                  title="WITH BLOOD"
-                  target="_blank"
-                  style="color: #cccccc; text-decoration: none"
-                  >WITH BLOOD</a
-                >
-                ·
-                <a
-                  href="https://soundcloud.com/withblood/corvus-corax"
-                  title="CORVUS CORAX"
-                  target="_blank"
-                  style="color: #cccccc; text-decoration: none"
-                  >CORVUS CORAX</a
-                >
+                <div class="center">   
+                  <div>
+                    <a
+                      id="lyricsBtn"
+                      class="btn btn-light"
+                      data-toggle="collapse"                      
+                      role="button"                      
+                      >
+                      <img src="assets/imgs/cursor.png" alt="ver" />
+                      </a>
+                  </div>                                   
+                  <p id="lyrics" class="lyricsHide">
+                    Nuestra vida escasea<br />
+                    lo más cercano al cielo, <strong>MORIR</strong><br />
+                    junto a los cuervos<br />
+                    ser digerido por ellos<br /><br />
+
+                    Señalar a un ser Invisible<br />
+                    Innegable, Incorruptible<br /><br />
+
+                    Elevados por los cielos<br />
+                    se nos concederá tocar el viento<br /><br />
+
+                    Me levantarán por los altos<br />
+                    para volver a germinar, <strong>NACER</strong><br /><br />
+
+                    Por la gloria de la naturaleza<br />
+                    en el comienzo de la conciencia<br /><br />
+
+                    Buscamos justificar ser esclavos<br />
+                    librarnos de culpa<br /><br />
+
+                    Señalar a un ser Invisible<br />
+                    Innegable, Incorruptible<br /><br />
+
+                    Seremos más que la muerte<br /><br />
+
+                    Elevados por los cielos<br />
+                    se nos concederá tocar el viento<br /><br />
+
+                    Devorados por los cuervos<br />
+                    Se nos verá volar como las aves<br /><br />
+
+                    Sin límites, se revela<br />
+                    desmembrados, consumidos<br /><br />
+
+                    <strong>INMATERIALES</strong>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -193,12 +227,9 @@
     <!-- bootstrap affix -->
     <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    
     <script src="https://w.soundcloud.com/player/api.js"></script>
 
     <!-- Dorang js -->
     <script src="assets/js/dorang.js?v=1.0.2"></script>
-
-
   </body>
 </html>
